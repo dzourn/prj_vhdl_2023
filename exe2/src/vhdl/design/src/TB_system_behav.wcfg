@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TB_system_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TB_system" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="2,479.615 ns"></ZoomEndTime>
+      <Cursor1Time time="590.292 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="222"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wvobject type="logic" fp_name="/TB_system/tb_clk">
+      <obj_property name="ElementShortName">tb_clk</obj_property>
+      <obj_property name="ObjectShortName">tb_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_system/tb_rst">
+      <obj_property name="ElementShortName">tb_rst</obj_property>
+      <obj_property name="ObjectShortName">tb_rst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_system/tb_switches">
+      <obj_property name="ElementShortName">tb_switches[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_switches[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_system/tb_data_out">
+      <obj_property name="ElementShortName">tb_data_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_data_out[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group5092">
+      <obj_property name="label">Controller group</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="divider154" type="divider">
+         <obj_property name="label">Controller</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="BkColor">#00FFFF</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/controller_logic/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/controller_logic/rst">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/controller_logic/data_in">
+         <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/controller_logic/data_ivld">
+         <obj_property name="ElementShortName">data_ivld</obj_property>
+         <obj_property name="ObjectShortName">data_ivld</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/controller_logic/x">
+         <obj_property name="ElementShortName">x[7:0]</obj_property>
+         <obj_property name="ObjectShortName">x[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/controller_logic/x_vld">
+         <obj_property name="ElementShortName">x_vld</obj_property>
+         <obj_property name="ObjectShortName">x_vld</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/controller_logic/h_val">
+         <obj_property name="ElementShortName">h_val[7:0]</obj_property>
+         <obj_property name="ObjectShortName">h_val[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/controller_logic/h_vld">
+         <obj_property name="ElementShortName">h_vld</obj_property>
+         <obj_property name="ObjectShortName">h_vld</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/controller_logic/tap_select">
+         <obj_property name="ElementShortName">tap_select[1:0]</obj_property>
+         <obj_property name="ObjectShortName">tap_select[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/controller_logic/next_val">
+         <obj_property name="ElementShortName">next_val</obj_property>
+         <obj_property name="ObjectShortName">next_val</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/TB_system/uut/FIR_FILTER/controller_logic/state">
+         <obj_property name="ElementShortName">state</obj_property>
+         <obj_property name="ObjectShortName">state</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/TB_system/uut/FIR_FILTER/controller_logic/clk_cycle_counter">
+         <obj_property name="ElementShortName">clk_cycle_counter</obj_property>
+         <obj_property name="ObjectShortName">clk_cycle_counter</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/controller_logic/tmp_select">
+         <obj_property name="ElementShortName">tmp_select[1:0]</obj_property>
+         <obj_property name="ObjectShortName">tmp_select[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/controller_logic/data_reg">
+         <obj_property name="ElementShortName">data_reg[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_reg[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/controller_logic/h_x_flag">
+         <obj_property name="ElementShortName">h_x_flag</obj_property>
+         <obj_property name="ObjectShortName">h_x_flag</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/controller_logic/split_data">
+         <obj_property name="ElementShortName">split_data[0:3][7:0]</obj_property>
+         <obj_property name="ObjectShortName">split_data[0:3][7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group5093">
+      <obj_property name="label">TAPS</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="divider179" type="divider">
+         <obj_property name="label">TAP0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/first_tap/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/first_tap/rst">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/first_tap/h_in">
+         <obj_property name="ElementShortName">h_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">h_in[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/first_tap/h_vld">
+         <obj_property name="ElementShortName">h_vld</obj_property>
+         <obj_property name="ObjectShortName">h_vld</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/first_tap/x_in">
+         <obj_property name="ElementShortName">x_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">x_in[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/first_tap/x_vld">
+         <obj_property name="ElementShortName">x_vld</obj_property>
+         <obj_property name="ObjectShortName">x_vld</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/first_tap/x_out">
+         <obj_property name="ElementShortName">x_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">x_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/first_tap/x_out_vld">
+         <obj_property name="ElementShortName">x_out_vld</obj_property>
+         <obj_property name="ObjectShortName">x_out_vld</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/first_tap/y_out">
+         <obj_property name="ElementShortName">y_out[15:0]</obj_property>
+         <obj_property name="ObjectShortName">y_out[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/first_tap/y_out_vld">
+         <obj_property name="ElementShortName">y_out_vld</obj_property>
+         <obj_property name="ObjectShortName">y_out_vld</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/first_tap/hx_flag">
+         <obj_property name="ElementShortName">hx_flag</obj_property>
+         <obj_property name="ObjectShortName">hx_flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider229" type="divider">
+         <obj_property name="label">TAP1</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/\gen(1)\/tap_comp/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/\gen(1)\/tap_comp/rst">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/\gen(1)\/tap_comp/h_in">
+         <obj_property name="ElementShortName">h_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">h_in[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/\gen(1)\/tap_comp/h_vld">
+         <obj_property name="ElementShortName">h_vld</obj_property>
+         <obj_property name="ObjectShortName">h_vld</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/\gen(1)\/tap_comp/x_in">
+         <obj_property name="ElementShortName">x_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">x_in[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/\gen(1)\/tap_comp/x_vld">
+         <obj_property name="ElementShortName">x_vld</obj_property>
+         <obj_property name="ObjectShortName">x_vld</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/\gen(1)\/tap_comp/x_out">
+         <obj_property name="ElementShortName">x_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">x_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/\gen(1)\/tap_comp/x_out_vld">
+         <obj_property name="ElementShortName">x_out_vld</obj_property>
+         <obj_property name="ObjectShortName">x_out_vld</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/\gen(1)\/tap_comp/y_out">
+         <obj_property name="ElementShortName">y_out[15:0]</obj_property>
+         <obj_property name="ObjectShortName">y_out[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/\gen(1)\/tap_comp/y_out_vld">
+         <obj_property name="ElementShortName">y_out_vld</obj_property>
+         <obj_property name="ObjectShortName">y_out_vld</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/\gen(1)\/tap_comp/hx_flag">
+         <obj_property name="ElementShortName">hx_flag</obj_property>
+         <obj_property name="ObjectShortName">hx_flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider246" type="divider">
+         <obj_property name="label">TAP2</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/\gen(2)\/tap_comp/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/\gen(2)\/tap_comp/rst">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/\gen(2)\/tap_comp/h_in">
+         <obj_property name="ElementShortName">h_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">h_in[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/\gen(2)\/tap_comp/h_vld">
+         <obj_property name="ElementShortName">h_vld</obj_property>
+         <obj_property name="ObjectShortName">h_vld</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/\gen(2)\/tap_comp/x_in">
+         <obj_property name="ElementShortName">x_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">x_in[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/\gen(2)\/tap_comp/x_vld">
+         <obj_property name="ElementShortName">x_vld</obj_property>
+         <obj_property name="ObjectShortName">x_vld</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/\gen(2)\/tap_comp/x_out">
+         <obj_property name="ElementShortName">x_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">x_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/\gen(2)\/tap_comp/x_out_vld">
+         <obj_property name="ElementShortName">x_out_vld</obj_property>
+         <obj_property name="ObjectShortName">x_out_vld</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/\gen(2)\/tap_comp/y_out">
+         <obj_property name="ElementShortName">y_out[15:0]</obj_property>
+         <obj_property name="ObjectShortName">y_out[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/\gen(2)\/tap_comp/y_out_vld">
+         <obj_property name="ElementShortName">y_out_vld</obj_property>
+         <obj_property name="ObjectShortName">y_out_vld</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/\gen(2)\/tap_comp/hx_flag">
+         <obj_property name="ElementShortName">hx_flag</obj_property>
+         <obj_property name="ObjectShortName">hx_flag</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider263" type="divider">
+         <obj_property name="label">TAP3</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/\gen(3)\/tap_comp/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/\gen(3)\/tap_comp/rst">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/\gen(3)\/tap_comp/h_in">
+         <obj_property name="ElementShortName">h_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">h_in[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/\gen(3)\/tap_comp/h_vld">
+         <obj_property name="ElementShortName">h_vld</obj_property>
+         <obj_property name="ObjectShortName">h_vld</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/\gen(3)\/tap_comp/x_in">
+         <obj_property name="ElementShortName">x_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">x_in[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/\gen(3)\/tap_comp/x_vld">
+         <obj_property name="ElementShortName">x_vld</obj_property>
+         <obj_property name="ObjectShortName">x_vld</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/\gen(3)\/tap_comp/x_out">
+         <obj_property name="ElementShortName">x_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">x_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/\gen(3)\/tap_comp/x_out_vld">
+         <obj_property name="ElementShortName">x_out_vld</obj_property>
+         <obj_property name="ObjectShortName">x_out_vld</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/\gen(3)\/tap_comp/y_out">
+         <obj_property name="ElementShortName">y_out[15:0]</obj_property>
+         <obj_property name="ObjectShortName">y_out[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/\gen(3)\/tap_comp/y_out_vld">
+         <obj_property name="ElementShortName">y_out_vld</obj_property>
+         <obj_property name="ObjectShortName">y_out_vld</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/\gen(3)\/tap_comp/hx_flag">
+         <obj_property name="ElementShortName">hx_flag</obj_property>
+         <obj_property name="ObjectShortName">hx_flag</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group5094">
+      <obj_property name="label">FILTER</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="divider130" type="divider">
+         <obj_property name="label">FIR FILTER</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="BkColor">#FFD700</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/rst">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/data_in">
+         <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/data_ivld">
+         <obj_property name="ElementShortName">data_ivld</obj_property>
+         <obj_property name="ObjectShortName">data_ivld</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/data_ovld">
+         <obj_property name="ElementShortName">data_ovld</obj_property>
+         <obj_property name="ObjectShortName">data_ovld</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/data_out">
+         <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/top_x">
+         <obj_property name="ElementShortName">top_x[7:0]</obj_property>
+         <obj_property name="ObjectShortName">top_x[7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/top_x_vld">
+         <obj_property name="ElementShortName">top_x_vld</obj_property>
+         <obj_property name="ObjectShortName">top_x_vld</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/top_h_val">
+         <obj_property name="ElementShortName">top_h_val[7:0]</obj_property>
+         <obj_property name="ObjectShortName">top_h_val[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/top_h_vld">
+         <obj_property name="ElementShortName">top_h_vld</obj_property>
+         <obj_property name="ObjectShortName">top_h_vld</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/top_tap_select">
+         <obj_property name="ElementShortName">top_tap_select[1:0]</obj_property>
+         <obj_property name="ObjectShortName">top_tap_select[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/top_next_val">
+         <obj_property name="ElementShortName">top_next_val</obj_property>
+         <obj_property name="ObjectShortName">top_next_val</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/FIR_FILTER/next_val">
+         <obj_property name="ElementShortName">next_val</obj_property>
+         <obj_property name="ObjectShortName">next_val</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/top_h_array">
+         <obj_property name="ElementShortName">top_h_array[0:3][7:0]</obj_property>
+         <obj_property name="ObjectShortName">top_h_array[0:3][7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/top_h_vld_array">
+         <obj_property name="ElementShortName">top_h_vld_array[0:3]</obj_property>
+         <obj_property name="ObjectShortName">top_h_vld_array[0:3]</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/TB_system/uut/FIR_FILTER/h_counter">
+         <obj_property name="ElementShortName">h_counter</obj_property>
+         <obj_property name="ObjectShortName">h_counter</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/y_array">
+         <obj_property name="ElementShortName">y_array[0:3][15:0]</obj_property>
+         <obj_property name="ObjectShortName">y_array[0:3][15:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/y_vld_array">
+         <obj_property name="ElementShortName">y_vld_array[0:3]</obj_property>
+         <obj_property name="ObjectShortName">y_vld_array[0:3]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/x_out_array">
+         <obj_property name="ElementShortName">x_out_array[0:3][7:0]</obj_property>
+         <obj_property name="ObjectShortName">x_out_array[0:3][7:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/x_out_vld_array">
+         <obj_property name="ElementShortName">x_out_vld_array[0:3]</obj_property>
+         <obj_property name="ObjectShortName">x_out_vld_array[0:3]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/FIR_FILTER/top_y_out">
+         <obj_property name="ElementShortName">top_y_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">top_y_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/TB_system/uut/FIR_FILTER/y_max_counter">
+         <obj_property name="ElementShortName">y_max_counter</obj_property>
+         <obj_property name="ObjectShortName">y_max_counter</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group5095">
+      <obj_property name="label">MEMORY</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="divider1677" type="divider">
+         <obj_property name="label">ROM</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="BkColor">#FAAFBE</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/ROM_MEMORY/next_val">
+         <obj_property name="ElementShortName">next_val</obj_property>
+         <obj_property name="ObjectShortName">next_val</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/ROM_MEMORY/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/ROM_MEMORY/rst">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/ROM_MEMORY/mem_out">
+         <obj_property name="ElementShortName">mem_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mem_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/ROM_MEMORY/mem_vld">
+         <obj_property name="ElementShortName">mem_vld</obj_property>
+         <obj_property name="ObjectShortName">mem_vld</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/ROM_MEMORY/ROM_mem">
+         <obj_property name="ElementShortName">ROM_mem[0:11][31:0]</obj_property>
+         <obj_property name="ObjectShortName">ROM_mem[0:11][31:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="divider4761" type="divider">
+         <obj_property name="label">RAM</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="BkColor">#FAAFBE</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/data_in">
+         <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/addr_w_in">
+         <obj_property name="ElementShortName">addr_w_in[3:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_w_in[3:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/addr_r_in">
+         <obj_property name="ElementShortName">addr_r_in[3:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_r_in[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/RAM_MEMORY/wrt_en_in">
+         <obj_property name="ElementShortName">wrt_en_in</obj_property>
+         <obj_property name="ObjectShortName">wrt_en_in</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/TB_system/uut/RAM_MEMORY/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/data_out">
+         <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram">
+         <obj_property name="ElementShortName">ram[15:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">ram[15:0][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject fp_name="divider1067" type="divider">
+         <obj_property name="label">binary ram </obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/tb_switches">
+         <obj_property name="ElementShortName">tb_switches[3:0]</obj_property>
+         <obj_property name="ObjectShortName">tb_switches[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/tb_data_out">
+         <obj_property name="ElementShortName">tb_data_out[3:0]</obj_property>
+         <obj_property name="ObjectShortName">tb_data_out[3:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram">
+         <obj_property name="ElementShortName">ram[15:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">ram[15:0][31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram[15]">
+            <obj_property name="ElementShortName">[15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram[14]">
+            <obj_property name="ElementShortName">[14][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram[13]">
+            <obj_property name="ElementShortName">[13][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram[12]">
+            <obj_property name="ElementShortName">[12][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram[11]">
+            <obj_property name="ElementShortName">[11][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram[10]">
+            <obj_property name="ElementShortName">[10][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram[9]">
+            <obj_property name="ElementShortName">[9][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram[8]">
+            <obj_property name="ElementShortName">[8][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram[7]">
+            <obj_property name="ElementShortName">[7][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram[6]">
+            <obj_property name="ElementShortName">[6][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram[5]">
+            <obj_property name="ElementShortName">[5][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram[4]">
+            <obj_property name="ElementShortName">[4][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram[3]">
+            <obj_property name="ElementShortName">[3][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram[2]">
+            <obj_property name="ElementShortName">[2][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram[1]">
+            <obj_property name="ElementShortName">[1][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram[0]">
+            <obj_property name="ElementShortName">[0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram[15]">
+            <obj_property name="ElementShortName">[15][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram[14]">
+            <obj_property name="ElementShortName">[14][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram[13]">
+            <obj_property name="ElementShortName">[13][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram[12]">
+            <obj_property name="ElementShortName">[12][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram[11]">
+            <obj_property name="ElementShortName">[11][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram[10]">
+            <obj_property name="ElementShortName">[10][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram[9]">
+            <obj_property name="ElementShortName">[9][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram[8]">
+            <obj_property name="ElementShortName">[8][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram[7]">
+            <obj_property name="ElementShortName">[7][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram[6]">
+            <obj_property name="ElementShortName">[6][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram[5]">
+            <obj_property name="ElementShortName">[5][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram[4]">
+            <obj_property name="ElementShortName">[4][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram[3]">
+            <obj_property name="ElementShortName">[3][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram[2]">
+            <obj_property name="ElementShortName">[2][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram[1]">
+            <obj_property name="ElementShortName">[1][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/TB_system/uut/RAM_MEMORY/ram[0]">
+            <obj_property name="ElementShortName">[0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider3875" type="divider">
+      <obj_property name="label">system</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#DCDCDC</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_system/uut/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_system/uut/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_system/uut/switches">
+      <obj_property name="ElementShortName">switches[3:0]</obj_property>
+      <obj_property name="ObjectShortName">switches[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_system/uut/data_out">
+      <obj_property name="ElementShortName">data_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_system/uut/top_rom_data_out">
+      <obj_property name="ElementShortName">top_rom_data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">top_rom_data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_system/uut/top_rom_vld">
+      <obj_property name="ElementShortName">top_rom_vld</obj_property>
+      <obj_property name="ObjectShortName">top_rom_vld</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_system/uut/top_fir_data_out">
+      <obj_property name="ElementShortName">top_fir_data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">top_fir_data_out[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_system/uut/top_fir_data_vld">
+      <obj_property name="ElementShortName">top_fir_data_vld</obj_property>
+      <obj_property name="ObjectShortName">top_fir_data_vld</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/TB_system/uut/top_next_val">
+      <obj_property name="ElementShortName">top_next_val</obj_property>
+      <obj_property name="ObjectShortName">top_next_val</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_system/uut/top_ram_addr_w_counter">
+      <obj_property name="ElementShortName">top_ram_addr_w_counter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">top_ram_addr_w_counter[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/TB_system/uut/top_data_ram_out">
+      <obj_property name="ElementShortName">top_data_ram_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">top_data_ram_out[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>
